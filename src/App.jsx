@@ -7,7 +7,6 @@ import Onepage from "./Components/1page/1page";
 import TwoPage from "./Components/2page/2page";
 import ThreePage from "./Components/3page/3page";
 import Error from "./Components/Page/Error/Error";
-import Home from "./Components/Page/Home/Home";
 import { Context } from "./Components/Context/Theme";
 
 function App() {
@@ -25,7 +24,6 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="" element={<Home />} />
         <Route path="Home" element={<Onepage />} />
         <Route path="About" element={<TwoPage />} />
         <Route path="Create" element={<ThreePage />} />
